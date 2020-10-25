@@ -1,0 +1,47 @@
+@import "mixins";
+.head1{
+    $color : red;
+    text-align: center;
+    color: $color;
+    @include heading;
+}
+#head{
+    @include headstyle;
+    h3{
+        @include heading;
+    }
+}
+#head2{
+    @include headstyle;
+    h3{
+        @include heading;
+    }
+}
+#div1{
+
+    @include divstyle;
+}
+
+#div2{
+    @include divstyle;
+}
+#div3{
+    @include divstyle;
+}
+
+#head2{
+    @include headstyle;
+}
+
+#div4{
+    @include divstyle;
+}
+#div5{
+    @include divstyle;
+}
+#div6{
+    @include divstyle;
+}
+h3{
+    @include hover;
+}

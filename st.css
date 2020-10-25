@@ -1,0 +1,95 @@
+.head1 {
+  text-align: center;
+  color: red;
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+#head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#head h3 {
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+#head2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#head2 h3 {
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+#div1 {
+  border: 3px solid green;
+  width: 500px;
+  margin: 50px;
+  border-radius: 10px;
+}
+
+#div2 {
+  border: 3px solid green;
+  width: 500px;
+  margin: 50px;
+  border-radius: 10px;
+}
+
+#div3 {
+  border: 3px solid green;
+  width: 500px;
+  margin: 50px;
+  border-radius: 10px;
+}
+
+#head2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#div4 {
+  border: 3px solid green;
+  width: 500px;
+  margin: 50px;
+  border-radius: 10px;
+}
+
+#div5 {
+  border: 3px solid green;
+  width: 500px;
+  margin: 50px;
+  border-radius: 10px;
+}
+
+#div6 {
+  border: 3px solid green;
+  width: 500px;
+  margin: 50px;
+  border-radius: 10px;
+}
+
+h3 {
+  color: blue;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+/*# sourceMappingURL=st.css.map */

@@ -1,0 +1,20 @@
+@mixin divstyle {
+    border: 3px solid green;
+    width: 500px;
+    margin: 50px;
+    border-radius: 10px;
+}
+@mixin headstyle{
+    display: flex;
+    flex-direction: row;
+}
+
+@mixin heading {
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+@mixin hover {
+    color: blue;
+    transition: 0.3s ease;
+}
